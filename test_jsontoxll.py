@@ -95,7 +95,7 @@ def test_convert_to_excel(sample_json_files):
     success_count, failed_files_count = convert_to_excel(sample_json_files)
     # assert success_count == 1  # Assuming only one file succeeds conversion
     # assert failed_files_count == len(sample_json_files) - 1  # Assuming all other files fail conversion
-    assert success_count == 1
+    assert success_count == 2
     assert failed_files_count == len(sample_json_files) - 2
 
 
